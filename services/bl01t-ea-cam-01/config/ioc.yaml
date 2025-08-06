@@ -33,3 +33,6 @@ entities:
     P: BL01T-EA-CAM-01
     R: ":PROC:"
     NDARRAY_PORT: DET.DET
+
+  - type: epics.StartupCommand
+    command: dbLoadRecords(config/extra.db)
